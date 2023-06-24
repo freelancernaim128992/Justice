@@ -1,0 +1,10 @@
+/* Button Style  */
+.primary-button {
+    background-color: #B68C5A;
+    color: white;
+    font-weight: 700;
+}
+
+.primary-button:hover {
+    border: 1px solid #B68C5A;
+}
