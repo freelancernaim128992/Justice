@@ -21,3 +21,15 @@
 .display-info {
     display: flex !important;
 }
+
+.small-p {
+    font-size: .7rem;
+}
+
+/* Responsive for mobile  */
+
+@media screen and (max-width: 576px) {
+    .banner-img {
+        height: 600px;
+    }
+}

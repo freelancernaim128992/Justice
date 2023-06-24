@@ -45,7 +45,34 @@
                             <a class="nav-link" href="/">Contact Us</a>
                         </li>
                     </ul>
-                    <button class="btn primary-button">Free Consultation</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn primary-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Free Consultation
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Free Consultaion</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>In this area, you can order a meeting with our lawers to discuss about your
+                                        problems.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn primary-button">Go Meeting</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -54,7 +81,7 @@
         <!-------------- Start Haeder Main Area  -------------->
         <div class="container pt-4">
             <div class="card text-bg-dark">
-                <img src="./images/banner.png" class="card-img" alt="...">
+                <img src="./images/banner.png" class="card-img banner-img" alt="...">
                 <div class="card-img-overlay w-50 text-center m-auto d-flex justify-content-center flex-column">
                     <h1 class="card-title">We Provide Effective
                         <br>
@@ -64,7 +91,7 @@
                         Wide Fights
                         Wrongfull Denials.Now they trusted Our Attorneys.</p>
                     <div class="d-flex" role="search">
-                        <input class="form-control me-2 p-3" type="search" placeholder="Search Your Services"
+                        <input class="form-control p-3" type=" search" placeholder="Search Your Services"
                             aria-label="Search">
                         <button class="btn primary-button">Search</button>
                     </div>
@@ -96,6 +123,9 @@
                             <p class="card-text w-75 m-auto text-secondary p-3">This law is about business purpose. If
                                 anyone want to case anybody who
                                 do wrong with him taking business then he can case to him by using this low.</p>
+                            <div>
+                                <img src="./images/Frame.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="card border-0 border-end text-center card-bg">
@@ -108,6 +138,9 @@
                                 to
                                 crime. It
                                 regulat social conduct and labour proscribes whatever is threatening.</p>
+                            <div>
+                                <img src="./images/Frame.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="card border-0 text-center">
@@ -117,6 +150,9 @@
                             <p class="card-text w-75 m-auto text-secondary p-3">If any baby or child can't get his human
                                 rigths or if anyone destroy
                                 any child rights then you can inform us for this.</p>
+                            <div>
+                                <img src="./images/Frame.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,9 +188,10 @@
                                     <img class="img-fluid person-image" src="./images/p-1.jpg" alt="">
                                 </div>
                                 <div>
-                                    <h3 class="pt-3">Awlad Hossain</h3>
-                                    <h5 class="py-3">UI | UX Designer</h5>
-                                    <p>I am passionate about designing beautiful, intuitive interfaces that help people
+                                    <h5>Awlad Hossain</h5>
+                                    <p class="text-sm-center">UI | UX Designer</p>
+                                    <p class="small-p">I am passionate about designing beautiful, intuitive
+                                        interfaces that help people
                                         be more productive. I get help from this website about child law. Their lawer
                                         are very friendly and co-opporate. When i get a problem for fight against the
                                         criminal then the lawer help me to fight him. </p>
@@ -169,11 +206,16 @@
                                     <img class="img-fluid person-image" src="./images/p-2.jpg" alt="">
                                 </div>
                                 <div>
-                                    <h3 class="pt-3">Imran Hossain</h3>
-                                    <h5 class="py-3">Graphics Designer</h5>
-                                    <p>I am passionate about designing beautiful, intuitive interfaces that help people
-                                        be more productive. I get help from this website about Business law. Their lawer
-                                        are very friendly and co-opporate. When i get a problem for fight against the
+                                    <h5>Imran Hossain</h5>
+                                    <p>Graphics Designer</p>
+                                    <p class="small-p">I am passionate about designing beautiful, intuitive interfaces
+                                        that
+                                        help
+                                        people
+                                        be more productive. I get help from this website about Business law. Their
+                                        lawer
+                                        are very friendly and co-opporate. When i get a problem for fight against
+                                        the
                                         criminal then the lawer help me to fight him. </p>
                                 </div>
                             </div>
@@ -186,9 +228,11 @@
                                     <img class="img-fluid person-image" src="./images/p-3.jpg" alt="">
                                 </div>
                                 <div>
-                                    <h3 class="pt-3">Fahad Islam</h3>
-                                    <h5 class="py-3">Content Creator</h5>
-                                    <p>I am passionate about creator beautiful, intuitive interfaces that help people
+                                    <h5>Fahad Islam</h5>
+                                    <p>Content Creator</p>
+                                    <p class="small-p">I am passionate about creator beautiful, intuitive interfaces
+                                        that
+                                        help people
                                         be more productive. I get help from this website about crime law. Their lawer
                                         are very friendly and co-opporate. When i get a problem for fight against the
                                         criminal then the lawer help me to fight him. </p>
@@ -297,7 +341,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 pt-5">
-                        <img src="./images/faq.png" alt="">
+                        <img class="img-fluid" src="./images/faq.png" alt="">
                     </div>
                 </div>
             </div>
@@ -308,15 +352,48 @@
 
 
     <!---------- Start Footer  ----------->
-    <footer>
+    <footer class="bg-black py-5">
         <div class="container">
-            <div class="row">
+            <div class="row text-white">
                 <div class="col-md-3">
-                    <img src="./images/logo2.png" alt="">
+                    <img src="./images/logo.png" alt="">
+                    <p class="pt-3">This is a justice website.In this website, you can figth against a criminal by the
+                        goverment law.
+                        you can talk with lawer about how to do fight against criminal.</p>
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Useful Links</h3>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Cases</li>
+                        <li>Blog</li>
+                        <li>Contact US</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Now</h3>
+                    <p>555 4th 5t NW, Washington
+                        <br>
+                        DC 20530, United States
+                    </p>
+                    <p>+88 01750 000 000
+                        <br>
+                        +88 01750 000 000
+                    </p>
+                    <p>info@gmail.com
+                        <br>
+                        info@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Subscribe</h3>
+                    <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                    <div class="d-flex" role="search">
+                        <input class="form-control me-2 p-3" type="search" placeholder="Email" aria-label="Search">
+                        <button class="btn primary-button">Send</button>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
