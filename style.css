@@ -8,3 +8,7 @@
 .primary-button:hover {
     border: 1px solid #B68C5A;
 }
+
+.card-bg {
+    background-image: linear-gradient(#cfcfcf, transparent);
+}
